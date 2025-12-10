@@ -4,8 +4,10 @@
 
 ## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Report (PDF)](./stats_report.pdf)
 
-**Objective:** Collect data my from day-to-day life and use statistics to gain deeper insights.
+### **Objective** 
+Collect data my from day-to-day life and use statistics to gain deeper insights.
 
+---
 
 ### Data Collection
 *  Using <https://www.typingtest.com>, collected $N=30$ trials over 4 weeks.
