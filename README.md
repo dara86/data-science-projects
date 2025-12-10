@@ -2,7 +2,7 @@
 **Author:** Darragh Coyle  
 **Contact:** [LinkedIn](https://www.linkedin.com/in/darragh-coyle/) 
 
-## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Report (PDF)](./report.pdf)
+## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Report (PDF)](./stats_report.pdf)
 
 **Objective:** Collect data my from day-to-day life and use statistics to gain deeper insights.
 
