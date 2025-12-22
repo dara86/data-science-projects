@@ -1,52 +1,96 @@
-<style>
-  /* 1. Make the background slightly grey so the content pops */
-  body {
-    background-color: #f4f6f8;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #333;
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-  }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Man vs. Keyboard Portfolio</title>
+    
+    <style>
+        body {
+            background-color: #f4f6f8;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+        .container { 
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+        }
+        a { color: #276DC3; text-decoration: none; font-weight: bold; }
+        a:hover { text-decoration: underline; }
+        
+        /* Styling for the dropdown details */
+        details {
+            background: #f9f9f9;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        summary { font-weight: bold; color: #276DC3; }
+        img { max-width: 100%; border-radius: 4px; }
+        
+        /* Badge styling helper */
+        .badges img { margin-right: 5px; }
+    </style>
+</head>
+<body>
 
-  /* 2. Create a "Card" effect for your main content */
-  /* If you don't have a container div, wrap your whole content in <div class="container">...</div> */
-  .container, body > * { 
-    max-width: 800px;
-    margin: 0 auto;
-    background: white;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
+<div class="container">
 
-  /* 3. Style the Headers */
-  h1, h2, h3 {
-    color: #2c3e50; /* Dark Blue-Grey */
-    border-bottom: 2px solid #eaeaea;
-    padding-bottom: 10px;
-  }
+    <div class="badges">
+        <img src="https://img.shields.io/badge/Language-R-276DC3" alt="R">
+        <img src="https://img.shields.io/badge/Status-Complete-success" alt="Status">
+        <img src="https://img.shields.io/badge/Type-Portfolio_Project-green" alt="Type">
+    </div>
 
-  /* 4. Make links look professional */
-  a {
-    color: #276DC3; /* The "R" Language Blue */
-    text-decoration: none;
-    font-weight: bold;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
+    <h1>Man vs. Keyboard: A Statistical Approach to Self-Improvement</h1>
 
-  /* 5. Spruce up that "Details" dropdown you just made */
-  details {
-    background: #f9f9f9;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  summary {
-    font-weight: bold;
-    color: #276DC3;
-  }
-</style>
+    <h2>📖 About the Project</h2>
+    <p>
+        This project explores the intersection of <strong>data science</strong> and <strong>cognitive performance</strong>. 
+        Using a dataset of 30 controlled typing trials collected over four weeks, I applied rigid statistical frameworks to test common assumptions about productivity.
+    </p>
+
+    <h3>📄 Report Preview</h3>
+    <details>
+        <summary><strong>Click to expand/view full report images</strong></summary>
+        <br>
+        <img src="figures/jcp_01.jpg" alt="Page 1" style="width: 100%; margin-bottom: 15px;">
+        <img src="figures/jcp_02.jpg" alt="Page 2" style="width: 100%; margin-bottom: 15px;">
+        <img src="figures/jcp_03.jpg" alt="Page 3" style="width: 100%; margin-bottom: 15px;">
+        </details>
+
+    <p style="margin-top: 20px;">
+        👉 <a href="jcp_report.pdf" target="_blank">Download the Full PDF Report</a>
+    </p>
+
+    <h2>🔑 Key Outcomes</h2>
+    <ul>
+        <li><strong>Technique over Volume:</strong> Linear regression revealed that practice volume alone is a poor predictor of speed.</li>
+        <li><strong>The "Flow" Fallacy:</strong> Bayesian analysis demonstrated that background music acts as a distractor, lowering performance probability by ~8%.</li>
+        <li><strong>Environmental Context:</strong> Identified a strong correlation between private environments and high scores.</li>
+    </ul>
+
+    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
+    
+    <p style="text-align: center; font-size: 0.9em; color: #666;">
+        <em>Created by Student ID 3540745</em>
+    </p>
+
+</div>
+
+</body>
+</html>
