@@ -25,7 +25,7 @@
 
 ---
 
-## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Full Report + Source Code(.pdf)](./the_stats_report.pdf)
+## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Report + Source Code(.pdf)](./the_stats_report.pdf)
 ![R](https://img.shields.io/badge/Language-R-276DC3)
 
 **Goal:** Take data from day-to-day life and use statistical techniques to get deeper insights into how I approach the task of self-improvement 
