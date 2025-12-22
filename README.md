@@ -21,7 +21,6 @@
 
 </details>
 
-[Download the PDF](jcp_report.pdf)
 
 
 ---
