@@ -9,15 +9,17 @@
 
 **Goal:** To showcase ability to understand and manipulate raw data and present insights so non-technical audiences can understand findings
 
-<section id="report-showcase" style="max-width: 800px; margin: 0 auto; text-align: center;">
-  <h2>JCPenney Data Insights Report</h2>
+<section id="pdf-embed" style="height: 100vh; width: 100%;">
+  <h2>Full Report</h2>
   
-  <img src="figures/jcp_01.jpg" alt="Report Page 1" style="width: 100%; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="figures/jcp_02.jpg" alt="Report Page 1" style="width: 100%; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="figures/jcp_03.jpg" alt="Report Page 1" style="width: 100%; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="figures/jcp_04.jpg" alt="Report Page 1" style="width: 100%; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-<img src="figures/jcp_05.jpg" alt="Report Page 1" style="width: 100%; margin-bottom: 20px; border: 1px solid #ddd; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-
+  <embed 
+    src="jcp_report.pdf" 
+    type="application/pdf" 
+    width="100%" 
+    height="100%" 
+    style="min-height: 800px; border: none;"
+  />
+  
 </section>
 
 
