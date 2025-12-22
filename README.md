@@ -7,7 +7,11 @@
 ![Python](https://img.shields.io/badge/Language-Python-3776AB?logo=python&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)
 
+<br>
+
 **Goal:** To showcase ability to understand and manipulate raw data and present insights so non-technical audiences can understand findings
+
+<br>
 
 <details>
   <summary><strong>Click to expand/view report</strong></summary>
@@ -25,10 +29,15 @@
 
 ---
 
+
 ## Man vs. Keyboard: Statistical Analysis of My Typing Ability - [Report + Source Code(.pdf)](./the_stats_report.pdf)
 ![R](https://img.shields.io/badge/Language-R-276DC3)
 
+<br>
+
 **Goal:** Take data from day-to-day life and use statistical techniques to get deeper insights into how I approach the task of self-improvement 
+
+<br>
 
 Using <https://www.typingtest.com>, collected 30 observations over 4 weeks.
 
@@ -36,7 +45,8 @@ Using <https://www.typingtest.com>, collected 30 observations over 4 weeks.
     * **Performance:** WPM (Words Per Minute), Accuracy (%).
     * **Test Conditions:** Test length (1 vs. 3 minutes), Test difficulty (Easy vs. Hard). 
     * **Environment:** Caffeine (Y/N), Music (Y/N), Time of Day, Location (Home, Library, Cafe).
-
+      
+<br>
 
 ### Statistics Preview
 
