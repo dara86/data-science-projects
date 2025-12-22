@@ -1,8 +1,4 @@
----
 
-title: Completed Projects
-
----
 
 
 **Author:** Darragh Coyle  
